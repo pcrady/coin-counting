@@ -9,4 +9,6 @@ the existing weights so you should move data/opencv-haar-classifier-training/cla
 to data/opencv-haar-classifier-training/classifier.bak first so you dont 
 overwrite anything.
 
+You will need opencv, opencv for python (whatever its called for the distrution your working on)
+and keras. I used keras with a tensorflow backend.
 

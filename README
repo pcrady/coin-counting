@@ -1,0 +1,12 @@
+To run the relevant code just run $jupyter notebook money.ipynb
+
+If you want to try your hand at training your own cascade filter run: 
+data/opencv-haar-classifier-training/script.sh 
+
+I do not recommend doing that since it took me like 6 hours to train the 
+cascade filter on a 16 core cpu. Also I'm pretty sure it will overwrite 
+the existing weights so you should move data/opencv-haar-classifier-training/classifier
+to data/opencv-haar-classifier-training/classifier.bak first so you dont 
+overwrite anything.
+
+
